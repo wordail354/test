@@ -2,18 +2,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QListWidget, QLineEdit, QTextEdit, QInputDialog, QHBoxLayout, QVBoxLayout, QFormLayout
 import json
 
-"""notes  = {
-    'Добро пажаловать!' : {
-        'Текст' : 'Это какоето там приложени для записи ненужного',
-        'Теги' : ['добро','инструкция'],
-    },
-    'Ну тип заметка?' : {
-        'Текст' : 'заметка???',
-        'Теги' : ['заметка','саня','год','создать','ноутбук'],
-    },
-}
-with open('notes_data.json', 'w', encoding='utf-8') as file:
-    json.dump(notes, file, ensure_ascii=False)"""
+#удолили словарь, надо купить
 
 app = QApplication([])
 win = QWidget()
